@@ -1,0 +1,170 @@
+@import url('global.css');
+body {
+    background-color: rgb(136, 189, 164);
+}
+
+h1 {
+    font-family: "aboreto";
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2 {
+    font-family: "aboreto";
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+
+hr {
+   border: none;
+   height: 20px;
+   background-color:rgb(101, 146, 135) ;
+}
+
+footer {
+   background-color:rgb(177, 211, 185) ;
+}
+
+header {
+   background-color: rgb(177, 211, 185);
+  
+}
+
+table {
+    height: 300px;
+    border: 2px rgb(136, 189, 164);
+    
+
+}
+td{
+  height: 20px;
+    border: 20px;
+    background-color:rgb(177, 211, 185);
+}
+th{
+    background-color:rgb(230, 242, 221) ;
+}
+
+caption {
+   font-size: 30px;
+   background-color: rgb(101, 146, 135);
+
+}
+img {
+    text-align: end;
+    width: 45%;
+    margin: 10px;
+  
+}
+#div1 {
+   height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align:flex-start;
+    margin: 20px;
+                    
+}
+
+link {
+    background-color:rgb(177, 211, 185) ;
+}
+
+            @media screen and (max-width: 375px)  {
+
+                main {
+                    font-size: 1rem;
+                    margin: 1rem;
+                }
+
+
+                table {
+                    /*display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;*/
+                   font-size: 0.8rem;
+                   
+
+
+                }
+              
+               caption {
+                    font-size: 100%;
+                    background-color: rgb(101, 146, 135); 
+                }
+
+                header {
+                background-color: rgb(177, 211, 185);
+                }
+            
+            }
+            
+            @media  (min-width:376px) and (max-width:767px) {
+                   main {
+                    font-size: 1rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    
+                }
+                div {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;  
+                }
+
+                div img {
+                    width: 90%;
+                    height: 90%;
+                    
+                }
+            }
+
+            @media screen and (min-width:768px) and (max-width: 1024px) {
+               
+                 main{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 1rem;
+                    margin-left: 20%;
+                    margin: 10%;
+            
+                }
+
+                    #div1 {
+                      display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 60%;
+                    margin-left: 10%;
+            
+                        
+                    }
+                table {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                   font-size: 170%;
+                  margin: 40%;
+                }
+
+                th {
+                    font-size: 0%;
+                }
+                img {
+                    font-size: 95%;
+                }
+            }
+
+
